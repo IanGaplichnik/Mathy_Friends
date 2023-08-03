@@ -1,7 +1,9 @@
 # Mathy Friends
 
 ## Video Example
-https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/d0690bc8-fd3a-47fb-be19-61a6a587b234
+https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/a4fce768-9c63-4851-bf9f-3e8c4f6798ad
+
+
 
 ## Summary
 Mathy Friends is an iOS application, that allows you to practice multiplication tables.<br>
