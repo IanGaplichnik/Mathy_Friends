@@ -19,7 +19,7 @@ Background picture is a collage made using templates.<br>
 https://www.figma.com/community/file/984024125873977389
 
 ### Starting screen
-<img width="323" alt="Screenshot 2023-08-03 at 13 57 00" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/e14d1be4-22f7-4099-baf1-1d2c8d76a073">
+<img width="324" alt="StartScreen" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/d2cbf82b-3a61-49d3-9ba9-3ba842fc1e51">
 <br>
 Starting screen greets users with large logo printed with light font.<br>
 User input section is accented and separated with a logical block, which calls to action and unites different input section.s<br>
@@ -27,7 +27,8 @@ Here user can choose which table they want to practice (table "5" would ask user
 Menu picker and segmented picker are used for both fields, as it restricts user from entering information in the wrong format.
 
 ### Game screen
-<img width="323" alt="Screenshot 2023-08-03 at 14 03 08" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/b48396e5-9770-4bf7-8268-3fb8b77677fb"><br>
+<img width="324" alt="MainScreen" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/76dc7889-89ef-4346-9ddb-ce3c6e8ba85a">
+<br>
 As the game starts "Total score" appears on the top of the screen. Player is given a point for each correct answer.<br>
 If player has chosen to answer 5 questions it is guaranteed, that questions won't repeat.<br>
 The problem is displayed in the middle of the screen and user is given 4 answers. One of the answers is guaranteed to be correct, the rest are wrong.<br>
@@ -37,5 +38,6 @@ otherwise, it'll turn red. The answer, that was picked by the user is lower, tha
 After the button was pressed, all buttons except "Next" (or "Finish", if it was the last question) are deactivated. This way user is not able to change their answer after seeing the correct one.
 
 ### Final alert
-<img width="323" alt="Screenshot 2023-08-03 at 14 13 06" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/b32a925b-4ddc-47d6-9ef0-818cdf4a6b90"><br>
+<img width="324" alt="AlertScreen" src="https://github.com/IanGaplichnik/Mathy_Friends/assets/70972514/8431ced9-8354-46c7-82c5-787ae0b13bc2">
+<br>
 After user has answered all questions, they will see an alert, notifying them of their final score. After that the game is restarted and user can pick new table or complete more exercices.
