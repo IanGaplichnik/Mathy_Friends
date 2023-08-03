@@ -11,6 +11,9 @@
 		FA62E1122A70FF1A00CED1BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62E1112A70FF1A00CED1BC /* ContentView.swift */; };
 		FA62E1142A70FF1E00CED1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA62E1132A70FF1E00CED1BC /* Assets.xcassets */; };
 		FA62E1172A70FF1E00CED1BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA62E1162A70FF1E00CED1BC /* Preview Assets.xcassets */; };
+		FAC911482A792645008218B0 /* FuzzyBubbles-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC911472A792645008218B0 /* FuzzyBubbles-Regular.ttf */; };
+		FAC9114D2A79296E008218B0 /* chalkboardse.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAC9114C2A79296E008218B0 /* chalkboardse.otf */; };
+		FAC9114F2A79330E008218B0 /* FuzzyBubbles-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC9114E2A79330E008218B0 /* FuzzyBubbles-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		FA62E1112A70FF1A00CED1BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA62E1132A70FF1E00CED1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA62E1162A70FF1E00CED1BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC911472A792645008218B0 /* FuzzyBubbles-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuzzyBubbles-Regular.ttf"; path = "../../../../Desktop/Fuzzy_Bubbles/FuzzyBubbles-Regular.ttf"; sourceTree = "<group>"; };
+		FAC911492A7926EB008218B0 /* D35-Multiplication-Table-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "D35-Multiplication-Table-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FAC9114C2A79296E008218B0 /* chalkboardse.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chalkboardse.otf; sourceTree = "<group>"; };
+		FAC9114E2A79330E008218B0 /* FuzzyBubbles-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuzzyBubbles-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +58,13 @@
 		FA62E10E2A70FF1A00CED1BC /* D35_Multiplication_Table */ = {
 			isa = PBXGroup;
 			children = (
+				FAC911492A7926EB008218B0 /* D35-Multiplication-Table-Info.plist */,
 				FA62E10F2A70FF1A00CED1BC /* D35_Multiplication_TableApp.swift */,
 				FA62E1112A70FF1A00CED1BC /* ContentView.swift */,
 				FA62E1132A70FF1E00CED1BC /* Assets.xcassets */,
+				FAC911472A792645008218B0 /* FuzzyBubbles-Regular.ttf */,
+				FAC9114E2A79330E008218B0 /* FuzzyBubbles-Bold.ttf */,
+				FAC9114C2A79296E008218B0 /* chalkboardse.otf */,
 				FA62E1152A70FF1E00CED1BC /* Preview Content */,
 			);
 			path = D35_Multiplication_Table;
@@ -125,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC9114F2A79330E008218B0 /* FuzzyBubbles-Bold.ttf in Resources */,
 				FA62E1172A70FF1E00CED1BC /* Preview Assets.xcassets in Resources */,
 				FA62E1142A70FF1E00CED1BC /* Assets.xcassets in Resources */,
+				FAC9114D2A79296E008218B0 /* chalkboardse.otf in Resources */,
+				FAC911482A792645008218B0 /* FuzzyBubbles-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +285,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"D35_Multiplication_Table/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "D35-Multiplication-Table-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +315,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"D35_Multiplication_Table/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "D35-Multiplication-Table-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
